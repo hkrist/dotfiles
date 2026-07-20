@@ -8,15 +8,16 @@
         "hyprland/workspaces",
         "tray"
     ],
-    "modules-center": [],
+    "modules-center": [
+        "clock"
+    ],
     "modules-right": [
         "pulseaudio",
         "backlight",
         "cpu",
         "memory",
         "network",
-        "battery",
-        "clock"
+        "battery"
     ],
 
     "custom/launcher": {
