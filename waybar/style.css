@@ -52,6 +52,11 @@ border-left: 2px solid #808080;
 border-right: 1px solid #ffffff;
 }
 
+/* Quita el #clock de la lista general en tu CSS y ponlo así si quieres un recuadro cerrado */
 #clock {
+padding: 0 8px;
+margin: 2px 0;
 font-weight: bold;
+border: 2px solid;
+border-color: #808080 #ffffff #ffffff #808080; /* Efecto hundido clásico */
 }
